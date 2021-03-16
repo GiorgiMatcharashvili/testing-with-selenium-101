@@ -54,7 +54,7 @@ driver.get("https://www.youtube.com/") or driver.get(url)
 """
 
 # url = "https://www.youtube.com/"
-
+#
 # driver.get(url)
 
 """
@@ -103,7 +103,7 @@ rule 4: make good names
 #     "First_searched_text" : '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a/yt-formatted-string'
 # }
 
-# Trending_button = driver.find_element_by_xpath(selectors["Trending_button"])
+#Trending_button = driver.find_element_by_xpath(selectors["Trending_button"])
 
 
 """
@@ -147,6 +147,14 @@ always give it to the variable
 
 # FirstSearchedText = driver.find_element_by_xpath(selectors["First_searched_text"]).text
 # print("First recommended Video's Title: ",FirstSearchedText)
+
+"""
+
+Warning: Always clean your mess and close driver
+
+"""
+
+#driver.close()
 
 """
 Rule 5: Be friend with Errors
